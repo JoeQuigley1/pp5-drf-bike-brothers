@@ -20,5 +20,5 @@ class MeetUpsDetail(generics.RetrieveUpdateDestroyAPIView):
     Retrieve a post and edit or delete it if you own it.
     """
     serializer_class = MeetUpsSerializer
-    permission_classes = [IsOwnerOrReadOnly]
+    permission_classes = [permissions.IsAuthenticatedOrReadOnly]
     queryset = queryset = MeetUps.objects.all()

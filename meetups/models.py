@@ -22,4 +22,4 @@ class Meta:
 
 
 def __str__(self):
-    return f'{self.titel} {self.date}'
+    return f'{self.id} {self.title}'
