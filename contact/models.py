@@ -11,7 +11,7 @@ class ContactForm(models.Model):
 
     class Meta:
         """Order by most recent first"""
-        ordering = ['-created_on']
+        ordering = ['-created_at']
 
         def __str__(self):
             return f'{self.fname} {self.lname}'

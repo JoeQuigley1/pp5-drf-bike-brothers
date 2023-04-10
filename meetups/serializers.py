@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .models import MeetUps
+from meetups.models import MeetUps
 
 
 class MeetUpsSerializer(serializers.ModelSerializer):
