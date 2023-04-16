@@ -5,7 +5,7 @@ from contact.models import ContactForm
 class ContactSerializer(serializers.ModelSerializer):
 
     class Meta:
-        model = ContactForm()
+        model = ContactForm
         fields = [
             'fname',
             'lname',
