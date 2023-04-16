@@ -11,7 +11,7 @@ class MeetUps(models.Model):
     city = models.CharField(max_length=50)
     venue = models.CharField(max_length=200)
     bike_type = models.CharField(max_length=50)
-    spaces = models.IntegerField(blank=True)
+    spaces = models.IntegerField(null=True, blank=True)
     duration = models.CharField(max_length=50)
     created_at = models.DateTimeField(auto_now_add=True)
     updated_at = models.DateTimeField(auto_now=True)
