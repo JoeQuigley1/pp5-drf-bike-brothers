@@ -24,13 +24,19 @@ A link to the FRONTEND README can be found here [here](https://github.com/JoeQui
 - Check delete fucntionality is working. (exluding Users and Profiles)
 3. Check Search functionlity is working for Posts.
 4. Reapeat steps 1-3 for the Deployed API. 
-5. 
 
- | Feature | Description     | Expected Result |    Actual Result   | Pass/Fail | Comments |
-|----------|-----------|-----------|----------------|---------|----------|
-|| Sign in Page renders succesfully   |    User can enter in login details  |      As expected     |   PASS  |   N/A   |
+## URL Testing
+| Feature |  Pass/Fail | Comments |
+| Root Route| Pass | Directs user to appropriate page |
+| /profles| Pass | Directs user to appropriate page |
+| /comments| Pass | Directs user to appropriate page |
+| /meetups| Pass | Directs user to appropriate page |
+| /followers| Pass | Directs user to appropriate page |
 
-
+## CRUD Testing
+### Pending writeup
+## Search Functionality testing
+### Pending writeup
 
 # Technologies Used: 
 
