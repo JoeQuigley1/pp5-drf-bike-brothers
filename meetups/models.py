@@ -3,6 +3,7 @@ from django.contrib.auth.models import User
 
 
 class MeetUps(models.Model):
+    """Model for a Meetup"""
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
     title = models.CharField(max_length=255)
     content = models.TextField(blank=True)
