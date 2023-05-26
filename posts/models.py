@@ -18,7 +18,7 @@ class Post(models.Model):
         ('scrambler', 'Scrambler'),
         ('scooter', 'Scooter'),
         ('moped', 'Moped'),
-        ('other', 'Other')
+        ('other', 'Other'),
     ]
 
     owner = models.ForeignKey(User, on_delete=models.CASCADE)
