@@ -26,15 +26,48 @@ A link to the FRONTEND README can be found here [here](https://github.com/JoeQui
 4. Reapeat steps 1-3 for the Deployed API. 
 
 ## URL Testing
-| Feature |  Pass/Fail | Comments |
-| Root Route| Pass | Directs user to appropriate page |
-| /profles| Pass | Directs user to appropriate page |
-| /comments| Pass | Directs user to appropriate page |
-| /meetups| Pass | Directs user to appropriate page |
-| /followers| Pass | Directs user to appropriate page |
+
+| Feature | Expected Result |    Actual Result   | Development|Deployment| Comments |
+|-------|-----|----|----|----|------|
+|Root URL|Display Welcome message|As Expected|Pass|Pass|N/A|
+|Profiles|Display Profiles list|As Expected|Pass|TBD|N/A|
+|Profiles Id|Display Profiles Detail|As Expected|Pass|TBD|N/A|
+|Posts|Display Post List|As Expected|Pass|TBD|N/A|
+|Posts Id|Display Post Detail|As Expected|Pass|TBD|N/A|
+|Comments|Display Comment List|As Expected|Pass|TBD|N/A|
+|Comments|Display Comment Detail|As Expected|Pass|TBD|N/A|
+|Likes|Display Likes List|As Expected|Pass|TBD|N/A|
+|List Id|Display Like Detail|As Expected|Pass|TBD|N/A|
+|Followers|Display Follower List|As Expected|Pass|TBD|N/A|
+|Followers|Display Follower Detail|As Expected|Pass|TBD|N/A|
+|Meetups|Display Meetup List|As Expected|Pass|TBD|N/A|
+|Meetups Id|Display Meetups Detail|As Expected|Pass|TBD|N/A|
+|Contact|Display Contact List|As Expected|Pass|TBD|N/A|
+
+
+- All URLs are tested and are working in Develpoment. 
 
 ## CRUD Testing
-### Pending writeup
+
+| Feature | Expected Result |    Actual Result   | Development|Deployment| Comments |
+|-------|-----|----|----|----|------|
+|Profiles|Profile can becreated |As Expected|Pass|TBD|N/A|
+|Posts| Post can be created|As Expected|Pass|TBD|N/A|
+|Posts| Post can be edited|As Expected|Pass|TBD|As Owner
+|Posts| Post can be deleted|As Expected|Pass|TBD|As Owner
+|Comments| Comment can be created|As Expected|Pass|TBD|N/A|
+|Comments| Comment can be edited|As Expected|Pass|TBD|As Owner|
+|Comments| Comment can be deleted|As Expected|Pass|TBD|As Owner|
+|Likes| Likes can be created|As Expected|Pass|TBD|N/A|
+|Likes| Likes can be deleted|As Expected|Pass|TBD|As Owner|
+|Followers| Followers can be created|As Expected|Pass|TBD|N/A|
+|Followers| Followers can be deleted|As Expected|Pass|TBD|N/A|
+|Meetups|Meetup can be created|As Expected|Pass|TBD|N/A|
+|Meetups |Meetup can be edited|As Expected|Pass|TBD|N/A|
+|Meetups |Meetup can be deleted|As Expected|Pass|TBD|N/A|
+|Contact|Contact  can be created|As Expected|Pass|TBD|N/A|
+
+
 ## Search Functionality testing
 ### Pending writeup
 
