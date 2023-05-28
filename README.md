@@ -11,6 +11,9 @@ A link to the live website can be found [here](https://bike-bros.herokuapp.com/)
 # DRF README
 A link to the FRONTEND README can be found here [here](https://github.com/JoeQuigley1/pp5-fe-bike-brothers/blob/main/README.md)
 
+# Database:
+
+![Database Scema](/static/screenshots/database-entiy-diagram.png)
 
 # Manual Testing 
 
@@ -20,7 +23,7 @@ A link to the FRONTEND README can be found here [here](https://github.com/JoeQui
 - Check link to each.
 - Create a new item. 
 - Check the new URL is working
-- Check Edit fuctionality is working. (excluding Likes, Followers and Profiles)
+- Check Edit fuctionality is working. (excluding Likes, Followers) Profiles can be Edited in deployed FE
 - Check delete fucntionality is working. (exluding Users and Profiles)
 3. Check Search functionlity is working for Posts.
 4. Reapeat steps 1-3 for the Deployed API. 
@@ -45,13 +48,13 @@ A link to the FRONTEND README can be found here [here](https://github.com/JoeQui
 |Contact|Display Contact List|As Expected|Pass|Pass|N/A|
 
 
-- All URLs are tested and are working in Develpoment. 
+- All URLs are tested and are working in Develpoment and Deployment. 
 
 ## CRUD Testing
 
 | Feature | Expected Result |    Actual Result   | Development|Deployment| Comments |
 |-------|-----|----|----|----|------|
-|Profiles|Profile can becreated |As Expected|Pass|Pass|N/A|
+|Profiles|Profile can be created |As Expected|Pass|Pass|N/A|
 |Posts| Post can be created|As Expected|Pass|Pass|N/A|
 |Posts| Post can be edited|As Expected|Pass|Pass|As Owner
 |Posts| Post can be deleted|As Expected|Pass|Pass|As Owner
@@ -67,9 +70,30 @@ A link to the FRONTEND README can be found here [here](https://github.com/JoeQui
 |Meetups |Meetup can be deleted|As Expected|Pass|Pass|As Owner|
 |Contact|Contact  can be created|As Expected|Pass|Pass|N/A|
 
+- All Functionality has been tested and is working in Develpoment and all CRUD features are working when deployed and linked to FE.
 
 ## Search Functionality testing
 - Filtering is possible on the Posts for the user and the title of a post
+
+## Validator Testing 
+
+Pycodestyle was installed to validate the python code written.
+
+| App       | models.py |    serializers.py    | urls.py | views.py |
+|-----------|-----------|----------------|---------|----------|
+|comments  |    PASS   |      PASS      |   PASS  |   PASS   |
+| contact |    PASS    |      PASS      |   PASS  |   PASS   |
+| followers |    PASS    |      PASS       |   PASS  |   PASS   |
+| likes |    PASS    |      PASS       |   PASS  |   PASS   |
+| meetups |    PASS    |      PASS       |   PASS  |   PASS   |
+| profiles |    PASS    |      PASS       |   PASS  |   PASS   |
+
+
+- There are 4 long lines in the drf_api settings.py consistent with the Code Institute Walkthrough
+- All other files in the drf_api pass with no warnings. 
+
+Unfixed Bugs
+- None recorded
 
 # Technologies Used: 
 
@@ -85,6 +109,7 @@ A link to the FRONTEND README can be found here [here](https://github.com/JoeQui
 - Django Rest Auth
 - PostgresSQL
 - Cors Headers
+- LucidChart: Used to create database schema
 
 
 # Modules and dependancies 
@@ -157,6 +182,7 @@ INSTALLED_APPS = [
     'django_filters',
     'rest_framework.authtoken',
     'dj_rest_auth',
+]
 ```
 3. ADD `SITE_ID = 1` to settings.py
 4. Add the dj-rest-auth urls paths to the main urls.py file as below:
@@ -166,6 +192,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     path('api-auth/', include('rest_framework.urls')),
     path('dj-rest-auth/', include('dj_rest_auth.urls')),
+]
 ```
 5. To install the JSON tokens, run terminal command `pip install djangoframework-simplejwt`
 6. Set [DEV] to 1 in the env.py file:
@@ -180,6 +207,7 @@ REST_FRAMEWORK = {
         if 'DEV' in os.environ
         else 'dj_rest_auth.jwt_auth.JWTCookieAuthentication'
     )],
+}
 ```
 8. To enable token authentication, set REST_USE_JWT to True. To ensure tokens are sent over HTTPS only, set JWT_AUTH_SECURE to True. Cookie names must also be declared. To do all of this, add the following code below the if/else statement just added to settings.py:
 ```
@@ -232,7 +260,7 @@ from .views import root_route
 
 urlpatterns = [
     path('', root_route),
-
+]
 ```
 15. To set up page pagination and to render the date time format in a clear and readbale format add the following to settings.py (inside REST_FRAMEWORK):
 ```
