@@ -30,19 +30,19 @@ A link to the FRONTEND README can be found here [here](https://github.com/JoeQui
 | Feature | Expected Result |    Actual Result   | Development|Deployment| Comments |
 |-------|-----|----|----|----|------|
 |Root URL|Display Welcome message|As Expected|Pass|Pass|N/A|
-|Profiles|Display Profiles list|As Expected|Pass|TBD|N/A|
-|Profiles Id|Display Profiles Detail|As Expected|Pass|TBD|N/A|
-|Posts|Display Post List|As Expected|Pass|TBD|N/A|
-|Posts Id|Display Post Detail|As Expected|Pass|TBD|N/A|
-|Comments|Display Comment List|As Expected|Pass|TBD|N/A|
-|Comments|Display Comment Detail|As Expected|Pass|TBD|N/A|
-|Likes|Display Likes List|As Expected|Pass|TBD|N/A|
-|List Id|Display Like Detail|As Expected|Pass|TBD|N/A|
-|Followers|Display Follower List|As Expected|Pass|TBD|N/A|
-|Followers|Display Follower Detail|As Expected|Pass|TBD|N/A|
-|Meetups|Display Meetup List|As Expected|Pass|TBD|N/A|
-|Meetups Id|Display Meetups Detail|As Expected|Pass|TBD|N/A|
-|Contact|Display Contact List|As Expected|Pass|TBD|N/A|
+|Profiles|Display Profiles list|As Expected|Pass|Pass|N/A|
+|Profiles Id|Display Profiles Detail|As Expected|Pass|Pass|N/A|
+|Posts|Display Post List|As Expected|Pass|Pass|N/A|
+|Posts Id|Display Post Detail|As Expected|Pass|Pass|N/A|
+|Comments|Display Comment List|As Expected|Pass|Pass|N/A|
+|Comments|Display Comment Detail|As Expected|Pass|Pass|N/A|
+|Likes|Display Likes List|As Expected|Pass|Pass|N/A|
+|List Id|Display Like Detail|As Expected|Pass|Pass|N/A|
+|Followers|Display Follower List|As Expected|Pass|Pass|N/A|
+|Followers|Display Follower Detail|As Expected|Pass|Pass|N/A|
+|Meetups|Display Meetup List|As Expected|Pass|Pass|N/A|
+|Meetups Id|Display Meetups Detail|As Expected|Pass|Pass|N/A|
+|Contact|Display Contact List|As Expected|Pass|Pass|N/A|
 
 
 - All URLs are tested and are working in Develpoment. 
@@ -51,25 +51,25 @@ A link to the FRONTEND README can be found here [here](https://github.com/JoeQui
 
 | Feature | Expected Result |    Actual Result   | Development|Deployment| Comments |
 |-------|-----|----|----|----|------|
-|Profiles|Profile can becreated |As Expected|Pass|TBD|N/A|
-|Posts| Post can be created|As Expected|Pass|TBD|N/A|
-|Posts| Post can be edited|As Expected|Pass|TBD|As Owner
-|Posts| Post can be deleted|As Expected|Pass|TBD|As Owner
-|Comments| Comment can be created|As Expected|Pass|TBD|N/A|
-|Comments| Comment can be edited|As Expected|Pass|TBD|As Owner|
-|Comments| Comment can be deleted|As Expected|Pass|TBD|As Owner|
-|Likes| Likes can be created|As Expected|Pass|TBD|N/A|
-|Likes| Likes can be deleted|As Expected|Pass|TBD|As Owner|
-|Followers| Followers can be created|As Expected|Pass|TBD|N/A|
-|Followers| Followers can be deleted|As Expected|Pass|TBD|N/A|
-|Meetups|Meetup can be created|As Expected|Pass|TBD|N/A|
-|Meetups |Meetup can be edited|As Expected|Pass|TBD|N/A|
-|Meetups |Meetup can be deleted|As Expected|Pass|TBD|N/A|
-|Contact|Contact  can be created|As Expected|Pass|TBD|N/A|
+|Profiles|Profile can becreated |As Expected|Pass|Pass|N/A|
+|Posts| Post can be created|As Expected|Pass|Pass|N/A|
+|Posts| Post can be edited|As Expected|Pass|Pass|As Owner
+|Posts| Post can be deleted|As Expected|Pass|Pass|As Owner
+|Comments| Comment can be created|As Expected|Pass|Pass|N/A|
+|Comments| Comment can be edited|As Expected|Pass|Pass|As Owner|
+|Comments| Comment can be deleted|As Expected|Pass|Pass|As Owner|
+|Likes| Likes can be created|As Expected|Pass|Pass|N/A|
+|Likes| Likes can be deleted|As Expected|Pass|Pass|As Owner|
+|Followers| Followers can be created|As Expected|Pass|Pass|N/A|
+|Followers| Followers can be deleted|As Expected|Pass|Pass|As Owner|
+|Meetups|Meetup can be created|As Expected|Pass|Pass|N/A|
+|Meetups |Meetup can be edited|As Expected|Pass|Pass|As Owner|
+|Meetups |Meetup can be deleted|As Expected|Pass|Pass|As Owner|
+|Contact|Contact  can be created|As Expected|Pass|Pass|N/A|
 
 
 ## Search Functionality testing
-### Pending writeup
+- Filtering is possible on the Posts for the user and the title of a post
 
 # Technologies Used: 
 

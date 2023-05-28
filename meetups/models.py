@@ -19,7 +19,7 @@ class MeetUps(models.Model):
 
 
 class Meta:
-    ordering = ['-date']
+    ordering = ['-created_at']
 
 
 def __str__(self):
