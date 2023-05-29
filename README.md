@@ -111,7 +111,6 @@ Unfixed Bugs
 - Cors Headers
 - LucidChart: Used to create database schema
 
-
 # Modules and dependancies 
 
 ![Requirements](static/screenshots/Modules.png)
@@ -121,7 +120,7 @@ Unfixed Bugs
 - Cloudinary - Storage of image files
 - Github - Repository with GIT version control
 - Gitpod - IDE for development
-- Heroku - Hosting/ Deployment of DRF database and React site
+- Heroku - Hosting / Deployment of DRF database and React site
 - Elephant SQL - Hosting of DRF database. 
 
 # Project Setup
@@ -283,7 +282,6 @@ if 'DEV' not in os.environ:
         'rest_framework.renderers.JSONRenderer',
     ]
 ```
-### Pending
 17. For comments, set DATETIME format to show how long ago a comment was created and updated. To do this, add the following code to any serializers.py files within comment apps:
 ```
 created_at = serializers.SerializerMethodField()
@@ -479,7 +477,7 @@ As of November 2022, Heroku ceased to provide a free service. The hosting of thi
 
 
 # Credits
-- The Code Institute DRF-API walkthrough as a guide to building a DRF_API.
+- The Code Institute DRF-API walkthrough as a guide to base the building of my DRF_API.
 - [Martina Terlevic](https://github.com/SephTheOverwitch): For help and support throughout a tough year.
 - Tutor support for their assistance. 
 - Slack for the huge archive of helpful information
