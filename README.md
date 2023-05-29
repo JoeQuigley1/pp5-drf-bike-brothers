@@ -8,7 +8,7 @@ A link to the live website can be found [here](https://fe-bike-bros.herokuapp.co
 # Deployed BACKEND website 
 A link to the live website can be found [here](https://bike-bros.herokuapp.com/)
 
-# DRF README
+# FrontEnd README
 A link to the FRONTEND README can be found here [here](https://github.com/JoeQuigley1/pp5-fe-bike-brothers/blob/main/README.md)
 
 # Database:
